@@ -1,20 +1,7 @@
-# themovies
+# Create and deploy a multi-server app with Adonis, Nuxt, and Cleaver
 
-## Build Setup
+Follow along with the tutorials and videos. 
 
-```bash
-# install dependencies
-$ yarn install
+Videos: https://www.youtube.com/playlist?list=PLApnZzwJN4G5gHKMr4owbFKUdAtdwPB-X
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+[Part 1 - Set up the front-end](https://dev.to/armiedema/create-and-deploy-a-multi-server-app-w-adonis-nuxt-and-cleaver-part-1-set-up-front-end-5185)
