@@ -13,34 +13,26 @@
         <div class="bg-white shadow overflow-hidden sm:rounded-md">
           <ul>
             <li>
-              <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+              <nuxt-link to="/children_of_men" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
                 <div class="flex items-center px-4 py-4 sm:px-6">
                   <div class="min-w-0 flex-1 flex items-center">
                     <div class="flex-shrink-0">
-                      <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                      <img class="h-12" src="https://m.media-amazon.com/images/M/MV5BMTQ5NTI2NTI4NF5BMl5BanBnXkFtZTcwNjk2NDA2OQ@@._V1_.jpg" alt="">
                     </div>
                     <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
                       <div>
                         <div class="text-sm leading-5 font-medium text-indigo-600 truncate">Children of Men</div>
-                        <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                          <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                          </svg>
-                          <span class="truncate">ricardo.cooper@example.com</span>
+                        <div class="mt-2 flex items-center text-sm leading-5 text-gray-700">
+                          2006 | Adventure, Drama, Sci-Fi
                         </div>
                       </div>
                       <div class="hidden md:block">
                         <div>
                           <div class="text-sm leading-5 text-gray-900">
-                            Applied on
-                            <time datetime="2020-01-07">January 7, 2020</time>
+                            Clive Owen, Julianne Moore, Michael Cane
                           </div>
-                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                            </svg>
-                            Completed phone screening
+                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-600 truncate ...">
+                            In 2027, in a chaotic world in which women have become somehow infertile, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea.
                           </div>
                         </div>
                       </div>
@@ -52,38 +44,29 @@
                     </svg>
                   </div>
                 </div>
-              </a>
+              </nuxt-link>
             </li>
             <li class="border-t border-gray-200">
               <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
                 <div class="flex items-center px-4 py-4 sm:px-6">
                   <div class="min-w-0 flex-1 flex items-center">
                     <div class="flex-shrink-0">
-                      <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                      <img class="h-12" src="https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,666,1000_AL_.jpg" alt="">
                     </div>
                     <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
                       <div>
                         <div class="text-sm leading-5 font-medium text-indigo-600 truncate">The Terminator</div>
-                        <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                          <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                          </svg>
-                          <span class="truncate">kristen.ramos@example.com</span>
+                        <div class="mt-2 flex items-center text-sm leading-5 text-gray-700">
+                          1984 | Action, Sci-Fi
                         </div>
                       </div>
                       <div class="hidden md:block">
                         <div>
                           <div class="text-sm leading-5 text-gray-900">
-                            Applied on
-                            <time datetime="2020-01-07">January 7, 2020</time>
+                            Arnold Schwarzenegger, Michael Biehn, Linda Hamilton
                           </div>
-                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                            </svg>
-                            Completed phone screening
-                          </div>
+                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-600 truncate ...">
+                            A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation.                          </div>
                         </div>
                       </div>
                     </div>
@@ -101,30 +84,23 @@
                 <div class="flex items-center px-4 py-4 sm:px-6">
                   <div class="min-w-0 flex-1 flex items-center">
                     <div class="flex-shrink-0">
-                      <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                      <img class="h-12" src="https://m.media-amazon.com/images/M/MV5BNmRjYWE3OTQtYzEwOC00OWM4LTk3MzktZTUyZTgzNjY4NDc0L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
                     </div>
                     <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
                       <div>
                         <div class="text-sm leading-5 font-medium text-indigo-600 truncate">Sisterhood of the Traveling Pants</div>
-                        <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                          <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                          </svg>
-                          <span class="truncate">ted.fox@example.com</span>
+                        <div class="mt-2 flex items-center text-sm leading-5 text-gray-700">
+                          2005 | Comedy, Drama, Romance
                         </div>
                       </div>
                       <div class="hidden md:block">
-                        <div>
-                          <div class="text-sm leading-5 text-gray-900">
-                            Applied on
-                            <time datetime="2020-01-07">January 7, 2020</time>
-                          </div>
-                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor">
-                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                            </svg>
-                            Completed phone screening
+                        <div class="hidden md:block">
+                          <div>
+                            <div class="text-sm leading-5 text-gray-900">
+                              Amber Tamblyn, Alexis Bledel, America Ferrera, Blake Lively
+                            </div>
+                            <div class="mt-2 flex items-center text-sm leading-5 text-gray-600 truncate ...">
+                              Four best girlfriends hatch a plan to stay connected with one another as their lives start off in different directions: they pass around a pair of secondhand jeans that fits each of their bodies perfectly.                          </div>
                           </div>
                         </div>
                       </div>
