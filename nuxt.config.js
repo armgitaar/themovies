@@ -4,6 +4,10 @@ export default {
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
+  server: {
+    port: 9058,
+    host: '0.0.0.0'
+  },
   mode: 'universal',
   /*
   ** Nuxt target
