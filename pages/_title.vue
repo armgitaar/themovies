@@ -68,7 +68,7 @@
 
   export default {
     async asyncData({ params }) {
-      const { data } = await axios.get(`http://116.203.123.237:5432/movies/${params.title}`)
+      const { data } = await axios.get(`http://api.leanbranch.com/movies/${params.title}`)
       return {
         movie: data
       }
