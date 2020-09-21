@@ -56,7 +56,7 @@
   import axios from 'axios'
   export default {
     async asyncData() {
-      const { data } = await axios.get('http://0.0.0.0:3333/movies')
+      const { data } = await axios.get('http://116.203.123.237:5432/movies')
       return {
         movies: data
       }
