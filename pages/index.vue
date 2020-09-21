@@ -57,7 +57,7 @@
 
   export default {
     asyncData({ params }) {
-      return axios.get(`http://api.leanbranch.com/movies`).then(res => {
+      return axios.get(`https://api.leanbranch.com/movies`).then(res => {
         return { movies: res.data }
       })
     }

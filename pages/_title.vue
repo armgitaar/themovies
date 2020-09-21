@@ -71,7 +71,7 @@
       movie: Array,
     },
     async asyncData({ params }) {
-      const { data } = await axios.get(`http://api.leanbranch.com/movies/${params.title}`)
+      const { data } = await axios.get(`https://api.leanbranch.com/movies/${params.title}`)
       return {
         movie: data
       }
