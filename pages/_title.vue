@@ -67,9 +67,6 @@
   import axios from 'axios'
 
   export default {
-    props: {
-      movie: Array,
-    },
     async asyncData({ params }) {
       const { data } = await axios.get(`https://api.leanbranch.com/movies/${params.title}`)
       return {
