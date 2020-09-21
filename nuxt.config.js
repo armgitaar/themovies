@@ -5,7 +5,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   server: {
-    port: 9058,
+    port: 7399,
   },
   mode: 'universal',
   /*
