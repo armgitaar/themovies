@@ -54,12 +54,12 @@
 
 <script>
   import axios from 'axios'
+
   export default {
-    async asyncData() {
-      const { data } = await axios.get('http://api.leanbranch.com/movies')
-      return {
-        movies: data
-      }
+    asyncData({ params }) {
+      return axios.get(`http://api.leanbranch.com/movies`).then(res => {
+        return { movies: res.data }
+      })
     }
   }
 </script>
