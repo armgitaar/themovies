@@ -6,7 +6,6 @@ export default {
   */
   server: {
     port: 9058,
-    host: '0.0.0.0'
   },
   mode: 'universal',
   /*
